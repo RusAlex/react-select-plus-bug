@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "eslint:recommended",
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "import"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "rules": {
+    "import/default": 1,
+    "import/export": 2,
+    "import/extensions": 1,
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/no-duplicates": 1,
+    "import/no-extraneous-dependencies": 2,
+    "import/no-named-as-default": 2,
+    "import/no-named-as-default-member": 1,
+    "import/no-unresolved": 2,
+    "import/order": 1
+  }
+}
